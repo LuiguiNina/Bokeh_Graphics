@@ -38,7 +38,7 @@ etiquetas = etiquetas[:len(tamaños)]
 # Agregar el gráfico de pastel con los datos
 for i in range(len(etiquetas)):
     p_pie.wedge(x=0, y=0, radius=0.5, start_angle=start_angle[i], end_angle=end_angle[i], 
-                fill_color=Category20c[20][i], legend_label=str(etiquetas[i]))  # Convierte a cadena legend_label
+                fill_color=Category20c[5][i], legend_label=str(etiquetas[i]))  # Convierte a cadena legend_label
 
 # Mostrar gráficos en Streamlit
 st.title("Visualización de gráficos Bokeh en Streamlit")
